@@ -1,0 +1,51 @@
+.container{
+  max-width: 400px;
+  min-height: 450px;
+  margin: 0 auto;
+  background-color: #efefef;
+  box-shadow: 0 0 10px gray;
+  margin-top: 30px;
+  padding: 15px 50px;
+}
+.text-center{
+  text-align: center;
+}
+.balance{
+  text-align: center;
+}
+.expense-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+.income{
+  color:  green;
+}
+/* .expense-container {
+  color: aqua;
+} */
+.transaction-list{
+  margin: 0px;
+  padding: 0px;
+}
+.transaction-list > li{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px gray;
+  padding: 10px 5px;
+  background-color: white;
+  margin: 5px 0px;
+  border-right: 4px solid red;
+}
+/* .minus{
+  border-right: 4px solid red;
+}
+.plus{
+  border-right: 4px solid green;
+} */
+.transaction-form input{
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+}
